@@ -36,7 +36,7 @@ During checkin, Django send an email and sms to the host, and during checkout it
 
 ```Since the SMS api service is a test API, if during testing, the API doesn't send the message, please contact, details below```
 
-The checkin and checkout is taking a 5 sec lag because of the email and sms requests.(To be fixed in the next release)
+```The checkin and checkout is taking a 5 sec lag because of the email and sms requests.(To be fixed in the next release)```
 ![](images/working.png)
 ### Screenshots
 ![](images/home.png)
