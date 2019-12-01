@@ -5,7 +5,7 @@ CheckIn Desk is a ReactJS, Django powered app which is production ready with the
 
 ### Tech
 
-![](images/django.jpeg)
+![](images/django.png)
 ![](images/react.png)
 ![](images/docker.jpeg)
 * React.js - for a cool frontend
