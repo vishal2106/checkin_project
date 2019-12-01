@@ -68,8 +68,8 @@ class CheckInView(viewsets.ViewSet):
                 }
                 return requests.post(reqUrl, req_params)
             URL = 'https://www.way2sms.com/api/v1/sendCampaign'
-            response = sendPostRequest(URL, 'TQ7P8AO62CQEU79QUXZPT9DDCX7PETC1',
-                                       '54RTL00C1ACN2A70', 'stage', details.guest_phone, 'CHECKIN', message)
+            response = sendPostRequest(URL, '0J9EV4ADQ9UEVFL0ZFBD5NMK0KFE5FZK',
+                                       '41411OFTTGJBBLEQ', 'stage', details.guest_phone, 'CHECKIN', message)
             print(response.text)
 
         elif(isDelete and int(isDelete) == 1):
@@ -110,8 +110,8 @@ class CheckInView(viewsets.ViewSet):
                 }
                 return requests.post(reqUrl, req_params)
             URL = 'https://www.way2sms.com/api/v1/sendCampaign'
-            response = sendPostRequest(URL, 'TQ7P8AO62CQEU79QUXZPT9DDCX7PETC1',
-                                       '54RTL00C1ACN2A70', 'stage', host_phone, 'CHECKIN', message)
+            response = sendPostRequest(URL, '0J9EV4ADQ9UEVFL0ZFBD5NMK0KFE5FZK',
+                                       '41411OFTTGJBBLEQ', 'stage', host_phone, 'CHECKIN', message)
             print(response.text)
         queryset = CheckIn.objects.all()
         serializer = CheckInSerializer(queryset, many=True)
