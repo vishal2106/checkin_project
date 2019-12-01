@@ -34,6 +34,8 @@ Visit ``` localhost:3000 ``` in your browser to see the application.
 The project uses Django as backend and React.js as frontend. All the POST and GET requests are handles by axios package by npm inside React. The backend receives the request and serializes the data and sends the response if it's a GET request and save the data in the django in-built sqllite DB if it's a POST request. Django also handles the email and SMS service. The email service is Django's buit in function, the SMS service is an API provided by way2sms.
 During checkin, Django send an email and sms to the host, and during checkout it sends the email and sms to the guest.
 
+```Since the SMS api service is a test API, if during testing, the API doesn't send the message, please contact, details below```
+
 The checkin and checkout is taking a 5 sec lag because of the email and sms requests.(To be fixed in the next release)
 ![](images/working.png)
 ### Screenshots
