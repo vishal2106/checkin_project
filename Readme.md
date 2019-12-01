@@ -5,9 +5,9 @@ CheckIn Desk is a ReactJS, Django powered app which is production ready with the
 
 ### Tech
 
-![](images/django)
-![](images/react)
-![](images/docker)
+![](images/django.jpeg)
+![](images/react.png)
+![](images/docker.jpeg)
 * React.js - for a cool frontend
 * Django - for a robust backend
 * Docker - to make the application scalable and production ready
@@ -37,16 +37,16 @@ During checkin, Django send an email and sms to the host, and during checkout it
 The checkin and checkout is taking a 5 sec lag because of the email and sms requests.(To be fixed in the next release)
 ![](images/working.png)
 ### Screenshots
-![](images/home)
+![](images/home.png)
 The Homepage
-![](images/checkin)
+![](images/checkin.png)
 The checkin Form. ```The form details must be accurate, i.e., the email and number must be valid otherwise the data may not be saved in the database```
-![](images/checkin_view)
+![](images/checkin_view.png)
 The User details is saved in the DB and rendered
-![](images/checkout)
+![](images/checkout.png)
 The user is checked out.
-![](images/checkinmail) ![](images/checkinmsg)
-![](images/checkoutmail) ![](images/checkoutmsg)
+![](images/checkinmail.jpg) ![](images/checkinmsg.jpg)
+![](images/checkoutmail.jpg) ![](images/checkoutmsg.jpg)
 The screenshots of host's and guest's notification
 
 ### Todos
